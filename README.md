@@ -14,7 +14,7 @@ Este proyecto de Swift es una aplicación móvil interactiva diseñada para ayud
 - **Swift**: El proyecto está desarrollado en el lenguaje de programación Swift, aprovechando todas sus características modernas y eficientes para la construcción de la aplicación.
 - **SwiftUI**: Se ha utilizado el framework SwiftUI de iOS para la construcción de la interfaz de usuario, aprovechando sus componentes y funcionalidades para ofrecer una experiencia fluida y atractiva.
 - **Core Data**: Para almacenar y gestionar los datos del diccionario y el progreso del usuario, se ha utilizado el framework Core Data, que permite la persistencia de datos de manera eficiente y confiable.
-- 
+- **Figma**: Mediante User Experience y User Interface, se planteo el problema, se hizo un estudio y se realizo una propuesta de solución al problema del lenguaje de señas, posteriomente se empezo a trabajar en el moodboard, junto con la definición de todos los elementos visuales base como la paleta de colores, iconos, tipografias y logos, el siguiente paso fue diseñar las pantallas y su interacción a base de un prototipo interactiv. Puedes consultar el archivo completo en [Figma Aqui](https://www.figma.com/file/Q7QYizOBrotAdKzBNMrRYZ/Dilo-con-se%C3%B1as?type=design&node-id=124%3A429&t=WUzHA3Eo7MqYsJmh-1)
 ## Contribuciones y colaboración
 
 ¡Este proyecto está abierto a contribuciones y colaboración! Siéntete libre de explorar el código fuente.
