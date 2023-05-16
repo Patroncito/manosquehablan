@@ -25,3 +25,16 @@ Esperamos que esta aplicación sea una herramienta útil para aprender y practic
 - **Alfonso Patrón**
 - **Angel Ayala**
 - **Joel Verdugo**
+
+ 
+![Vista Previa](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/01-Pantalla%20Iphone.png)
+![Pantalla de CArga](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/02.Loading%20Screen.png)
+![Inicio](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/03.%20Home.png)
+![Categorias](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/04.%20Categories.png)
+![Quiz](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/05.%20Quiz.png)
+![Respuesta](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/06.%20Answer.png)
+![Resultado](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/07.%20Results.png)
+![Lista](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/08.%20List.png)
+![Diccionario](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/09.%20List%20Questtion.png)
+![Acerca de Nosotros](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/10.%20About%20Us.png)
+
