@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A015DB12A0879ED00F45878 /* QuizAbecedarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A015DB02A0879ED00F45878 /* QuizAbecedarioView.swift */; };
+		8A015DB32A08B2BD00F45878 /* QuizModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A015DB22A08B2BD00F45878 /* QuizModel.swift */; };
+		8A015DB52A08BD4100F45878 /* FinalViewAbecedario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A015DB42A08BD4100F45878 /* FinalViewAbecedario.swift */; };
+		8A015DB72A08BFDE00F45878 /* QuizAdjetivosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A015DB62A08BFDE00F45878 /* QuizAdjetivosView.swift */; };
+		8A015DBD2A08CAFA00F45878 /* FinalViewAdjetivos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A015DBC2A08CAFA00F45878 /* FinalViewAdjetivos.swift */; };
+		8A2C29082A0CA524009CCCFA /* QuizAlimentosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C29072A0CA524009CCCFA /* QuizAlimentosView.swift */; };
+		8A2C290A2A0CA603009CCCFA /* FinalViewAlimentos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2C29092A0CA603009CCCFA /* FinalViewAlimentos.swift */; };
+		8A57BAA12A0D4A4400760B42 /* QuizRepublicaMexicanaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57BAA02A0D4A4400760B42 /* QuizRepublicaMexicanaView.swift */; };
+		8A57BAA32A0D4A4E00760B42 /* FinalViewRepublicaMexicana.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57BAA22A0D4A4E00760B42 /* FinalViewRepublicaMexicana.swift */; };
+		8A59179429A6E47D00BA0950 /* Manos_que_HablanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A59179329A6E47D00BA0950 /* Manos_que_HablanApp.swift */; };
+		8A59179829A6E47E00BA0950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A59179729A6E47E00BA0950 /* Assets.xcassets */; };
+		8A59179B29A6E47E00BA0950 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A59179A29A6E47E00BA0950 /* Preview Assets.xcassets */; };
+		8A5917A229A6E78E00BA0950 /* letterToLearn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A5917A129A6E78E00BA0950 /* letterToLearn.swift */; };
+		8A827D9E2A0D4DC000A70D17 /* QuizAnimalesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827D9C2A0D4DC000A70D17 /* QuizAnimalesView.swift */; };
+		8A827D9F2A0D4DC000A70D17 /* FinalViewAnimales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827D9D2A0D4DC000A70D17 /* FinalViewAnimales.swift */; };
+		8A827DA62A0D4DEB00A70D17 /* FinalViewCalendario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DA12A0D4DEB00A70D17 /* FinalViewCalendario.swift */; };
+		8A827DA72A0D4DEB00A70D17 /* QuizCalendarioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DA22A0D4DEB00A70D17 /* QuizCalendarioView.swift */; };
+		8A827DA82A0D4DEB00A70D17 /* FinalViewCasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DA42A0D4DEB00A70D17 /* FinalViewCasa.swift */; };
+		8A827DA92A0D4DEB00A70D17 /* QuizCasaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DA52A0D4DEB00A70D17 /* QuizCasaView.swift */; };
+		8A827DAD2A0D4E0400A70D17 /* QuizColoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DAB2A0D4E0400A70D17 /* QuizColoresView.swift */; };
+		8A827DAE2A0D4E0400A70D17 /* FinalViewColores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DAC2A0D4E0400A70D17 /* FinalViewColores.swift */; };
+		8A827DB22A0D4E0F00A70D17 /* QuizCuerpoHumanoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DB02A0D4E0F00A70D17 /* QuizCuerpoHumanoView.swift */; };
+		8A827DB32A0D4E0F00A70D17 /* FinalViewCuerpoHumano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DB12A0D4E0F00A70D17 /* FinalViewCuerpoHumano.swift */; };
+		8A827DBA2A0D4E1B00A70D17 /* FinalViewFrutasyVerduras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DB52A0D4E1B00A70D17 /* FinalViewFrutasyVerduras.swift */; };
+		8A827DBB2A0D4E1B00A70D17 /* QuizFrutasyVerdurasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DB62A0D4E1B00A70D17 /* QuizFrutasyVerdurasView.swift */; };
+		8A827DBC2A0D4E1B00A70D17 /* QuizNumerosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DB82A0D4E1B00A70D17 /* QuizNumerosView.swift */; };
+		8A827DBD2A0D4E1B00A70D17 /* FinalViewNumeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A827DB92A0D4E1B00A70D17 /* FinalViewNumeros.swift */; };
+		8A9B30C02A12FAF300431A41 /* LoadingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B30BF2A12FAF300431A41 /* LoadingScreen.swift */; };
+		8AF7EB8F29AD55D400656D28 /* Play.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7EB8E29AD55D400656D28 /* Play.swift */; };
+		8AF7EB9129AD560D00656D28 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7EB9029AD560D00656D28 /* Home.swift */; };
+		8AF7EB9329AD56C800656D28 /* listCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7EB9229AD56C800656D28 /* listCategories.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A015DB02A0879ED00F45878 /* QuizAbecedarioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAbecedarioView.swift; sourceTree = "<group>"; };
+		8A015DB22A08B2BD00F45878 /* QuizModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModel.swift; sourceTree = "<group>"; };
+		8A015DB42A08BD4100F45878 /* FinalViewAbecedario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewAbecedario.swift; sourceTree = "<group>"; };
+		8A015DB62A08BFDE00F45878 /* QuizAdjetivosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAdjetivosView.swift; sourceTree = "<group>"; };
+		8A015DBC2A08CAFA00F45878 /* FinalViewAdjetivos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewAdjetivos.swift; sourceTree = "<group>"; };
+		8A2C29072A0CA524009CCCFA /* QuizAlimentosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizAlimentosView.swift; sourceTree = "<group>"; };
+		8A2C29092A0CA603009CCCFA /* FinalViewAlimentos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewAlimentos.swift; sourceTree = "<group>"; };
+		8A57BAA02A0D4A4400760B42 /* QuizRepublicaMexicanaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizRepublicaMexicanaView.swift; sourceTree = "<group>"; };
+		8A57BAA22A0D4A4E00760B42 /* FinalViewRepublicaMexicana.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalViewRepublicaMexicana.swift; sourceTree = "<group>"; };
+		8A59179029A6E47D00BA0950 /* Manos que Hablan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Manos que Hablan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A59179329A6E47D00BA0950 /* Manos_que_HablanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manos_que_HablanApp.swift; sourceTree = "<group>"; };
+		8A59179729A6E47E00BA0950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A59179A29A6E47E00BA0950 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8A5917A129A6E78E00BA0950 /* letterToLearn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = letterToLearn.swift; sourceTree = "<group>"; };
+		8A827D9C2A0D4DC000A70D17 /* QuizAnimalesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizAnimalesView.swift; sourceTree = "<group>"; };
+		8A827D9D2A0D4DC000A70D17 /* FinalViewAnimales.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewAnimales.swift; sourceTree = "<group>"; };
+		8A827DA12A0D4DEB00A70D17 /* FinalViewCalendario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewCalendario.swift; sourceTree = "<group>"; };
+		8A827DA22A0D4DEB00A70D17 /* QuizCalendarioView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCalendarioView.swift; sourceTree = "<group>"; };
+		8A827DA42A0D4DEB00A70D17 /* FinalViewCasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewCasa.swift; sourceTree = "<group>"; };
+		8A827DA52A0D4DEB00A70D17 /* QuizCasaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCasaView.swift; sourceTree = "<group>"; };
+		8A827DAB2A0D4E0400A70D17 /* QuizColoresView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizColoresView.swift; sourceTree = "<group>"; };
+		8A827DAC2A0D4E0400A70D17 /* FinalViewColores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewColores.swift; sourceTree = "<group>"; };
+		8A827DB02A0D4E0F00A70D17 /* QuizCuerpoHumanoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizCuerpoHumanoView.swift; sourceTree = "<group>"; };
+		8A827DB12A0D4E0F00A70D17 /* FinalViewCuerpoHumano.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewCuerpoHumano.swift; sourceTree = "<group>"; };
+		8A827DB52A0D4E1B00A70D17 /* FinalViewFrutasyVerduras.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewFrutasyVerduras.swift; sourceTree = "<group>"; };
+		8A827DB62A0D4E1B00A70D17 /* QuizFrutasyVerdurasView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizFrutasyVerdurasView.swift; sourceTree = "<group>"; };
+		8A827DB82A0D4E1B00A70D17 /* QuizNumerosView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizNumerosView.swift; sourceTree = "<group>"; };
+		8A827DB92A0D4E1B00A70D17 /* FinalViewNumeros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalViewNumeros.swift; sourceTree = "<group>"; };
+		8A9B30BF2A12FAF300431A41 /* LoadingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingScreen.swift; sourceTree = "<group>"; };
+		8AF7EB8E29AD55D400656D28 /* Play.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Play.swift; sourceTree = "<group>"; };
+		8AF7EB9029AD560D00656D28 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		8AF7EB9229AD56C800656D28 /* listCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = listCategories.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A59178D29A6E47D00BA0950 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A015DAF2A0879C800F45878 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				8AF7EB8E29AD55D400656D28 /* Play.swift */,
+				8A015DBA2A08CA9C00F45878 /* Abecedario */,
+				8A015DBB2A08CAC800F45878 /* Adjetivos */,
+				8A2C28FC2A0C8E4E009CCCFA /* Alimentos */,
+				8A2C28FD2A0C8E59009CCCFA /* Animales */,
+				8A827DA02A0D4DEB00A70D17 /* Calendario */,
+				8A827DA32A0D4DEB00A70D17 /* Casa */,
+				8A827DAA2A0D4E0400A70D17 /* Colores */,
+				8A827DAF2A0D4E0F00A70D17 /* CuerpoHumano */,
+				8A827DB42A0D4E1B00A70D17 /* FrutasYVerduras */,
+				8A827DB72A0D4E1B00A70D17 /* Numeros */,
+				8A2C29042A0C8E79009CCCFA /* RepublicaMexicana */,
+				8A9B30BF2A12FAF300431A41 /* LoadingScreen.swift */,
+			);
+			path = Play;
+			sourceTree = "<group>";
+		};
+		8A015DBA2A08CA9C00F45878 /* Abecedario */ = {
+			isa = PBXGroup;
+			children = (
+				8A015DB02A0879ED00F45878 /* QuizAbecedarioView.swift */,
+				8A015DB42A08BD4100F45878 /* FinalViewAbecedario.swift */,
+			);
+			path = Abecedario;
+			sourceTree = "<group>";
+		};
+		8A015DBB2A08CAC800F45878 /* Adjetivos */ = {
+			isa = PBXGroup;
+			children = (
+				8A015DB62A08BFDE00F45878 /* QuizAdjetivosView.swift */,
+				8A015DBC2A08CAFA00F45878 /* FinalViewAdjetivos.swift */,
+			);
+			path = Adjetivos;
+			sourceTree = "<group>";
+		};
+		8A203EA72A0D7F4D00E18060 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				8AF7EB9229AD56C800656D28 /* listCategories.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		8A203EA82A0D7FD300E18060 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8AF7EB9029AD560D00656D28 /* Home.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8A203EA92A0D806000E18060 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8A59179329A6E47D00BA0950 /* Manos_que_HablanApp.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8A2C28FC2A0C8E4E009CCCFA /* Alimentos */ = {
+			isa = PBXGroup;
+			children = (
+				8A2C29072A0CA524009CCCFA /* QuizAlimentosView.swift */,
+				8A2C29092A0CA603009CCCFA /* FinalViewAlimentos.swift */,
+			);
+			path = Alimentos;
+			sourceTree = "<group>";
+		};
+		8A2C28FD2A0C8E59009CCCFA /* Animales */ = {
+			isa = PBXGroup;
+			children = (
+				8A827D9C2A0D4DC000A70D17 /* QuizAnimalesView.swift */,
+				8A827D9D2A0D4DC000A70D17 /* FinalViewAnimales.swift */,
+			);
+			path = Animales;
+			sourceTree = "<group>";
+		};
+		8A2C29042A0C8E79009CCCFA /* RepublicaMexicana */ = {
+			isa = PBXGroup;
+			children = (
+				8A57BAA02A0D4A4400760B42 /* QuizRepublicaMexicanaView.swift */,
+				8A57BAA22A0D4A4E00760B42 /* FinalViewRepublicaMexicana.swift */,
+			);
+			path = RepublicaMexicana;
+			sourceTree = "<group>";
+		};
+		8A59178729A6E47D00BA0950 = {
+			isa = PBXGroup;
+			children = (
+				8A59179229A6E47D00BA0950 /* Manos que Hablan */,
+				8A59179129A6E47D00BA0950 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A59179129A6E47D00BA0950 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A59179029A6E47D00BA0950 /* Manos que Hablan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A59179229A6E47D00BA0950 /* Manos que Hablan */ = {
+			isa = PBXGroup;
+			children = (
+				8A203EA92A0D806000E18060 /* Controller */,
+				8AF7EB9429AD635000656D28 /* Model */,
+				8AF7EB8D29AD55C600656D28 /* View */,
+				8A59179729A6E47E00BA0950 /* Assets.xcassets */,
+				8A59179929A6E47E00BA0950 /* Preview Content */,
+			);
+			path = "Manos que Hablan";
+			sourceTree = "<group>";
+		};
+		8A59179929A6E47E00BA0950 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8A59179A29A6E47E00BA0950 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A827DA02A0D4DEB00A70D17 /* Calendario */ = {
+			isa = PBXGroup;
+			children = (
+				8A827DA22A0D4DEB00A70D17 /* QuizCalendarioView.swift */,
+				8A827DA12A0D4DEB00A70D17 /* FinalViewCalendario.swift */,
+			);
+			path = Calendario;
+			sourceTree = "<group>";
+		};
+		8A827DA32A0D4DEB00A70D17 /* Casa */ = {
+			isa = PBXGroup;
+			children = (
+				8A827DA52A0D4DEB00A70D17 /* QuizCasaView.swift */,
+				8A827DA42A0D4DEB00A70D17 /* FinalViewCasa.swift */,
+			);
+			path = Casa;
+			sourceTree = "<group>";
+		};
+		8A827DAA2A0D4E0400A70D17 /* Colores */ = {
+			isa = PBXGroup;
+			children = (
+				8A827DAB2A0D4E0400A70D17 /* QuizColoresView.swift */,
+				8A827DAC2A0D4E0400A70D17 /* FinalViewColores.swift */,
+			);
+			path = Colores;
+			sourceTree = "<group>";
+		};
+		8A827DAF2A0D4E0F00A70D17 /* CuerpoHumano */ = {
+			isa = PBXGroup;
+			children = (
+				8A827DB02A0D4E0F00A70D17 /* QuizCuerpoHumanoView.swift */,
+				8A827DB12A0D4E0F00A70D17 /* FinalViewCuerpoHumano.swift */,
+			);
+			path = CuerpoHumano;
+			sourceTree = "<group>";
+		};
+		8A827DB42A0D4E1B00A70D17 /* FrutasYVerduras */ = {
+			isa = PBXGroup;
+			children = (
+				8A827DB62A0D4E1B00A70D17 /* QuizFrutasyVerdurasView.swift */,
+				8A827DB52A0D4E1B00A70D17 /* FinalViewFrutasyVerduras.swift */,
+			);
+			path = FrutasYVerduras;
+			sourceTree = "<group>";
+		};
+		8A827DB72A0D4E1B00A70D17 /* Numeros */ = {
+			isa = PBXGroup;
+			children = (
+				8A827DB82A0D4E1B00A70D17 /* QuizNumerosView.swift */,
+				8A827DB92A0D4E1B00A70D17 /* FinalViewNumeros.swift */,
+			);
+			path = Numeros;
+			sourceTree = "<group>";
+		};
+		8AF7EB8D29AD55C600656D28 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8A203EA82A0D7FD300E18060 /* Home */,
+				8A203EA72A0D7F4D00E18060 /* Learn */,
+				8A015DAF2A0879C800F45878 /* Play */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8AF7EB9429AD635000656D28 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8A5917A129A6E78E00BA0950 /* letterToLearn.swift */,
+				8A015DB22A08B2BD00F45878 /* QuizModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A59178F29A6E47D00BA0950 /* Manos que Hablan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A59179E29A6E47E00BA0950 /* Build configuration list for PBXNativeTarget "Manos que Hablan" */;
+			buildPhases = (
+				8A59178C29A6E47D00BA0950 /* Sources */,
+				8A59178D29A6E47D00BA0950 /* Frameworks */,
+				8A59178E29A6E47D00BA0950 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Manos que Hablan";
+			productName = "Manos que Hablan";
+			productReference = 8A59179029A6E47D00BA0950 /* Manos que Hablan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A59178829A6E47D00BA0950 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8A59178F29A6E47D00BA0950 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8A59178B29A6E47D00BA0950 /* Build configuration list for PBXProject "Manos que Hablan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A59178729A6E47D00BA0950;
+			productRefGroup = 8A59179129A6E47D00BA0950 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A59178F29A6E47D00BA0950 /* Manos que Hablan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A59178E29A6E47D00BA0950 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A59179B29A6E47E00BA0950 /* Preview Assets.xcassets in Resources */,
+				8A59179829A6E47E00BA0950 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A59178C29A6E47D00BA0950 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9B30C02A12FAF300431A41 /* LoadingScreen.swift in Sources */,
+				8A827DA92A0D4DEB00A70D17 /* QuizCasaView.swift in Sources */,
+				8A827DA62A0D4DEB00A70D17 /* FinalViewCalendario.swift in Sources */,
+				8A827DB32A0D4E0F00A70D17 /* FinalViewCuerpoHumano.swift in Sources */,
+				8A827DA72A0D4DEB00A70D17 /* QuizCalendarioView.swift in Sources */,
+				8A57BAA32A0D4A4E00760B42 /* FinalViewRepublicaMexicana.swift in Sources */,
+				8AF7EB9329AD56C800656D28 /* listCategories.swift in Sources */,
+				8A827DB22A0D4E0F00A70D17 /* QuizCuerpoHumanoView.swift in Sources */,
+				8A015DBD2A08CAFA00F45878 /* FinalViewAdjetivos.swift in Sources */,
+				8A827DBD2A0D4E1B00A70D17 /* FinalViewNumeros.swift in Sources */,
+				8A827DA82A0D4DEB00A70D17 /* FinalViewCasa.swift in Sources */,
+				8A827DAD2A0D4E0400A70D17 /* QuizColoresView.swift in Sources */,
+				8A827DAE2A0D4E0400A70D17 /* FinalViewColores.swift in Sources */,
+				8A015DB12A0879ED00F45878 /* QuizAbecedarioView.swift in Sources */,
+				8A015DB52A08BD4100F45878 /* FinalViewAbecedario.swift in Sources */,
+				8A827DBA2A0D4E1B00A70D17 /* FinalViewFrutasyVerduras.swift in Sources */,
+				8A827D9E2A0D4DC000A70D17 /* QuizAnimalesView.swift in Sources */,
+				8A827D9F2A0D4DC000A70D17 /* FinalViewAnimales.swift in Sources */,
+				8A827DBC2A0D4E1B00A70D17 /* QuizNumerosView.swift in Sources */,
+				8A59179429A6E47D00BA0950 /* Manos_que_HablanApp.swift in Sources */,
+				8A015DB32A08B2BD00F45878 /* QuizModel.swift in Sources */,
+				8A57BAA12A0D4A4400760B42 /* QuizRepublicaMexicanaView.swift in Sources */,
+				8A015DB72A08BFDE00F45878 /* QuizAdjetivosView.swift in Sources */,
+				8AF7EB9129AD560D00656D28 /* Home.swift in Sources */,
+				8A2C29082A0CA524009CCCFA /* QuizAlimentosView.swift in Sources */,
+				8A2C290A2A0CA603009CCCFA /* FinalViewAlimentos.swift in Sources */,
+				8A827DBB2A0D4E1B00A70D17 /* QuizFrutasyVerdurasView.swift in Sources */,
+				8A5917A229A6E78E00BA0950 /* letterToLearn.swift in Sources */,
+				8AF7EB8F29AD55D400656D28 /* Play.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A59179C29A6E47E00BA0950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A59179D29A6E47E00BA0950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A59179F29A6E47E00BA0950 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Manos que Hablan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonso.Manos-que-Hablan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A5917A029A6E47E00BA0950 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Manos que Hablan/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alfonso.Manos-que-Hablan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A59178B29A6E47D00BA0950 /* Build configuration list for PBXProject "Manos que Hablan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A59179C29A6E47E00BA0950 /* Debug */,
+				8A59179D29A6E47E00BA0950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A59179E29A6E47E00BA0950 /* Build configuration list for PBXNativeTarget "Manos que Hablan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A59179F29A6E47E00BA0950 /* Debug */,
+				8A5917A029A6E47E00BA0950 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A59178829A6E47D00BA0950 /* Project object */;
+}
