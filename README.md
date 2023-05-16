@@ -1,6 +1,6 @@
-# Juego para el  Aprendizaje de Lenguaje de Señas Mexicanas en Swift
+# Aplicación Movil | Aprendizaje de Lenguaje de Señas Mexicanas
 
-Este proyecto de Swift es una aplicación interactiva diseñada para ayudar a las personas a aprender el lenguaje de señas a través de un juego de quiz y una sección de aprendizaje tipo diccionario. 
+Este proyecto de Swift es una aplicación móvil interactiva diseñada para ayudar a las personas a aprender el lenguaje de señas a través de un juego de quiz y una sección de aprendizaje tipo diccionario. 
 
 ## Características principales
 
