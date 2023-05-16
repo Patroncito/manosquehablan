@@ -27,7 +27,7 @@ Esperamos que esta aplicación sea una herramienta útil para aprender y practic
 - **Joel Verdugo**
 
  
-![Vista Previa](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/01-Pantalla%20Iphone.png)
+![Vista Previa](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/01-Pantalla%20Iphone.png){:height="338"}
 ![Pantalla de CArga](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/02.Loading%20Screen.png)
 ![Inicio](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/03.%20Home.png)
 ![Categorias](https://github.com/Patroncito/doming_with_p5/blob/main/Screenshots/04.%20Categories.png)
