@@ -2,6 +2,9 @@
 
 Este proyecto de Swift es una aplicación móvil interactiva diseñada para ayudar a las personas a aprender el lenguaje de señas a través de un juego de quiz y una sección de aprendizaje tipo diccionario. 
 
+![ss-1](https://github.com/Patroncito/manosquehablan/assets/72732974/4a4cd4bd-391e-4ad8-bcbc-4767cb39d6d7)
+
+
 ## Características principales
 
 - **Juego de Quiz**: La aplicación ofrece un juego de quiz divertido y educativo, donde los usuarios pueden poner a prueba sus conocimientos del lenguaje de señas. Presenta preguntas relacionadas con vocabulario, gramática y expresiones comunes en lenguaje de señas.
