@@ -8,293 +8,219 @@
 import SwiftUI
 import AVKit
 
+struct ItemModel {
+
+    var subtitle : String
+    var tittle : String
+    var color1 : Color
+    var color2 : Color
+}
+
+var dataItem: [ItemModel] =
+[
+    ItemModel(subtitle: "Start a new", tittle: "Quiz", color1: Color(.thPink), color2: Color(.systemPink)),
+    ItemModel(subtitle: "Learn a new", tittle: "Word", color1: Color(.pmBluetiful), color2: Color(.pmThor)),
+    ItemModel(subtitle: "Start a random", tittle: "Quiz", color1: Color(.sdSaflower), color2: Color(.sdSaflower))
+]
+
+
 struct Home: View {
     
     
     var body: some View {
-                ZStack{
-                    Image("fondo1")
-                        .resizable()
-                        .ignoresSafeArea(.all)
-                    VStack(alignment: .leading){
-                        ScrollView(.horizontal) {
-                       
-                            HStack(alignment: .center){
-                                
-                                CardViewModal(title: "Jugar", imageName: "play.fill", colorBackground: Color.purple, width: 150, height: 150, fontSize: 60, destination: AnyView(Play()))
-                                
-                                CardViewModal(title: "Aprender", imageName: "book.fill", colorBackground: Color.red, width: 140, height: 140, fontSize: 40, destination: AnyView(listCategories()))
-                                
-                                CardViewModal(title: "Acerca de", imageName: "person.fill", colorBackground: Color.blue, width: 130, height: 130, fontSize: 30, destination: AnyView(AboutUs()))
-                                
-                                
-                                
-                            }
-                            .padding(.top, 20)
-                            .padding(.horizontal, 10)
+        ZStack{
+
+            LinearGradient(colors: [Color(.baseHaiti), Color(.baseNocturne)], startPoint: .top, endPoint: .bottom).ignoresSafeArea(.all)
+            
+            VStack{
+                
+                //MARK: HEADER
+                Headeritem()
+                
+                //MARK: SCORE
+                Scoreitem()
+                
+                //MARK: Option to Play
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 20){
+                        
+                        ForEach(dataItem.indices, id: \.self){ item in
+                            
+                            itemToPlay(dataItem: dataItem[item])
+                                .padding(.leading,  item == 0 ? 20 : 0)
+                                .padding(.trailing, item == dataItem.count - 1 ? 20 : 0)
                         }
                         
-                        VStack(alignment: .leading){    
-                           
+                        /* ForEach(dataItem.indices, id: \.self) { index in
                             
-                            
-                            Text("Ultimas Puntuaciones")
-                                .font(.title)
-                                .bold()
-                                .padding(.leading, 10)
-                                .padding(.top, 10)
-                            
-                            
-                            ScrollView(.vertical){
-                                
-                                    VStack(alignment: .leading){
-                                        HStack{
-                                            lastScores(iconCategory: "✏️", tittle: "Abecedario", color: Color.green, puntuacionMaxima: quizAbecedario.count, nameOfQuizz: "quizAbecedario")
-                                            
-                                            lastScores(iconCategory: "👋🏼", tittle: "Adjetivos", color: Color.yellow, puntuacionMaxima: quizAdjetivos.count, nameOfQuizz: "quizAdjetivos")
-                                            
-                                        }
-                                        
-                                        HStack{
-                                            lastScores(iconCategory: "🍕", tittle: "Alimentos", color: Color.pink, puntuacionMaxima: quizAlimentos.count, nameOfQuizz: "quizAlimentos")
-                                            
-                                            lastScores(iconCategory: "🐶", tittle: "Animales", color: Color.cyan, puntuacionMaxima: quizAnimales.count, nameOfQuizz: "quizAnimales")
-                                        }
-                                        
-                                        HStack{
-                                            lastScores(iconCategory: "📆", tittle: "Calendario", color: Color.orange, puntuacionMaxima: quizCalendario.count, nameOfQuizz: "quizCalendario")
-                                            
-                                            lastScores(iconCategory: "🏠", tittle: "Casa", color: Color.green, puntuacionMaxima: quizCasa.count, nameOfQuizz: "quizCasa")
-                                        }
-                                        
-                                        HStack{
-                                            lastScores(iconCategory: "🎨", tittle: "Colores", color: Color.yellow, puntuacionMaxima: quizColores.count, nameOfQuizz: "quizColores")
-                                            
-                                            lastScores(iconCategory: "🦶🏻", tittle: "Cuerpo Humano", color: Color.pink, puntuacionMaxima: quizCuerpoHumano.count, nameOfQuizz: "quizCuerpoHumano")
-                                        }
-                                        
-                                        HStack{
-                                            lastScores(iconCategory: "🍏", tittle: "Frutas y Verduras", color: Color.cyan, puntuacionMaxima: quizFrutasyVerduras.count, nameOfQuizz: "quizFrutasyVerduras")
-                                            
-                                            lastScores(iconCategory: "💯", tittle: "Numeros", color: Color.orange, puntuacionMaxima: quizNumeros.count, nameOfQuizz: "quizNumeros")
-                                        }
-                                        HStack(){
-                                            lastScores(iconCategory: "🇲🇽", tittle: "Republica Mexicana", color: Color.green, puntuacionMaxima: quizRepublicaMexicana.count, nameOfQuizz: "quizRepublicaMexicana")
-                                        }
-                                    }
-                                
-                                
-                            }
-                         
-                        }
+                           let item = dataItem[index]
 
+                           itemToPlay(dataItem : item)
+                                .padding(.leading, index == 0 ? 20 : 0)
+                                .padding(.trailing, index == dataItem.count - 1 ? 20 : 0)
+                            
+                        }*/
                     }
-
-                    
-                }
-                .navigationBarHidden(true)
-
-
-    }
-}
-
-
-
-struct CardView : View {
-    
-    let title: String
-    let imageName: String
-    let destination: AnyView
-    let color : Color
-    let width : CGFloat
-    let height : CGFloat
-    let fontSize : CGFloat
-    
-    
-    var body: some View {
-        
-            ZStack{
-                
-                VStack {
-                    Image(systemName: imageName)
-                    
-                        .font(.system(size: fontSize))
-                        .foregroundColor(.white)
-                    
-                    Text(title)
-                        .font(.headline)
-                        .foregroundColor(.white)
-                        .padding()
-                }
-                .frame(width: width, height: height)
-                .background(color)
-                .cornerRadius(10)
-                
-
-            }
-            
-
-    
-        .padding(.leading, 10)
-    }
-        
-        
-    }
-    
-
-struct CardViewModal : View {
-    
-    @State private var showModal = false
-    
-    let title: String
-    let imageName: String
-    let colorBackground : Color
-    let width : CGFloat
-    let height : CGFloat
-    let fontSize : CGFloat
-    let destination: AnyView
-
-
-    
-    var body: some View {
-        
-        
-        VStack {
-             Button(action: {
-                 showModal = true
-             }) {
-                 ZStack {
-                     VStack {
-                         Image(systemName: imageName    )
-                             .font(.system(size: fontSize))
-                             .foregroundColor(.white)
-                         
-                         Text(title)
-                             .font(.headline)
-                             .foregroundColor(.white)
-                             .padding()
-                     }
-                     .frame(width: width, height: height)
-                     .background(colorBackground)
-                     .cornerRadius(10)
-                 }
-             }
-         }
-         .fullScreenCover(isPresented: $showModal) {
-            destination
-         }
-        
-        
-    }
-}
-struct lastScores : View {
- 
-    let iconCategory : String
-    let tittle : String
-    let color : Color
-    @State var puntuacionFinal = 0
-    let puntuacionMaxima : Int
-    let nameOfQuizz : String
-    
-    
-    
-    var body: some View {
-        
-        
-        VStack{
-            VStack{
-                Text(iconCategory).shadow(radius: 5).font(.title2).frame(width: 50, height: 50)
-                    .overlay(Circle().stroke(Color.purple, lineWidth: 3)).padding(.top, 10)
-            }
-            
-            VStack(alignment: .leading){
-                Text(tittle)
-                    .bold()
-                    .font(.title3)
-                    .foregroundColor(.white)
-                    .padding(.bottom, 5)
-
-                
-            }
-            
-            Text("⛳️ : \(puntuacionFinal)⭐️ | \(puntuacionMaxima)⭐️")
-                .onAppear(){
-                    puntuacionFinal = LoadScore(quiz: nameOfQuizz)
                 }
                 
-                .font(.system(size: 15))
-                .foregroundColor(.white)
-                .padding(.bottom, 4)
-            
-            Spacer()
-  
-        }.frame(width: 170, height: 130)
-        
-        .background(color)
-        .cornerRadius(10)
-        .padding(.horizontal, 10)
-        .padding(.top, 10)
-        .padding(.bottom, -5)
-  
-    }
-}
-
-struct AboutUs : View {
-
-    @Environment(\.presentationMode) var presentationMode
-    
-    var body: some View {
-        
-        ZStack(){
-            
-            Image("fondo2")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
-                .edgesIgnoringSafeArea(.all
-                )
-            
-            VStack() {
                 
+                //MARK: ScoreBoard Global
                 
-                Button(action: {
-                    presentationMode.wrappedValue.dismiss()
-                    
-                }) {
-                    
-                    Image(systemName: "xmark")
-                        .font(.title)
-                        .foregroundColor(.white)
-                        .frame(width: 50, height: 50)
-                        .background(Color.red)
-                        .clipShape(Circle())
-                        .shadow(color: Color.black, radius: 12, x: 0, y: 0)
-                    
-                }
-                .padding(.bottom, 20).padding(.top, 20).padding(.trailing, 10)
-                VStack{
-                    Text("Creado por")
-                        .font(.subheadline).padding(.bottom, 5)
-                    Text("Alfonso Patron")
-                        .font(.title)
-                        .padding(.bottom, 5)
-                    Text("Angel Lopez ")
-                        .font(.title)
-                        .padding(.bottom, 5)
-                    Text("Joel Verdugo")
-                        .font(.title)
-                        .padding(.bottom, 5)
-                }.foregroundColor(.black).padding()
-              
+                //MARK: Challenges
                 
-            }.background(Color.white).cornerRadius(12)
-              
+                Spacer()
+                
+            }    //VSTACK
             
-
-            
+          
             
         }
-       
+
+
+    }
+}
+
+
+#Preview(){
+    Home()
+}
+
+struct Headeritem : View {
+    
+    var body: some View {
+        HStack(spacing: 10){
+            ZStack{
+                Circle()
+                    .foregroundStyle(Color(.baseNocturne))
+                    .frame(width:70)
+                
+                Image("pulpo")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 50)
+                    .foregroundStyle(.white)
+                
+            }
+            VStack(alignment: .leading, spacing: 10){
+                
+                Text("Hola de Nuevo")
+                    .foregroundStyle(.white.opacity(0.6))
+                    .font(.system(size: 18))
+                    .bold()
+                Text("Alfonso")
+                    .font(.system(size: 28))
+                    .foregroundStyle(.white)
+                    .bold()
+                
+            }
+            Spacer()
+            
+        }
+        .padding(.horizontal)
+        .padding(.vertical)
         
+    }
+    
+}
+
+
+struct Scoreitem : View {
+    var body: some View {
+        HStack{
+            Spacer()
+            VStack(alignment: .center) {
+                Text("Score")
+                    .foregroundStyle(.white.opacity(0.7))
+                    .font(.footnote)
+                HStack {
+                    Image(systemName: "star.fill")
+                        .resizable()
+                        .foregroundStyle(.white)
+                        .scaledToFit()
+                        .frame(width: 20)
+                        .padding(.trailing, 4)
+
+                    Text("665")
+                        .font(.title)
+                        .bold()
+                    .foregroundStyle(.white)
+                }
+
+            }
+            Spacer()
+            VStack(alignment: .center) {
+                Text("Games")
+                    .foregroundStyle(.white.opacity(0.7))
+                    .font(.footnote)
+                
+                HStack {
+                    Image(systemName: "gamecontroller.fill")
+                        .resizable()
+                        .foregroundStyle(.white)
+                        .scaledToFit()
+                        .frame(width: 25)
+                        .padding(.trailing, 4)
+                    Text("122")
+                        .font(.title)
+                        .bold()
+                    .foregroundStyle(.white)
+                }
+
+            }
+            Spacer()
+        }
+        .frame(height: 100)
+        .background(LinearGradient(colors: [Color(.baseHaiti), Color(.baseHaiti)], startPoint: .leading, endPoint: .trailing))
+        .clipShape(RoundedRectangle(cornerRadius: 20))
+        .padding(.horizontal)
+        .padding(.bottom)
+
+
+       
+
+    }
+}
+
+struct itemToPlay : View {
+    
+    
+    var dataItem : ItemModel
+    // var colorItem : [Color]
+    
+    var body: some View {
+        
+        Button(action: {
+            print(dataItem)
+            
+        }, label: {
+            
+            VStack(alignment: .leading, spacing: 0)
+            {
+                
+                    
+                Text(dataItem.subtitle)
+                        .padding(.top, 5)
+                    
+                Text(dataItem.tittle)
+                            .font(.largeTitle)
+                            .bold()
+                            .padding(.bottom, 8)
+                    
+                    Image(systemName: "arrow.right.circle.fill")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 30)
+                        .padding(.bottom, 5)
+                
+            }
+            .foregroundStyle(.white)
+            .frame(width: 140, height: 150)
+            .background(LinearGradient(colors: [dataItem.color1,dataItem.color2], startPoint: .topLeading, endPoint: .bottomTrailing))
+            .clipShape(RoundedRectangle(cornerRadius: 12))
+
+            
+            
+        })
         
     }
 }

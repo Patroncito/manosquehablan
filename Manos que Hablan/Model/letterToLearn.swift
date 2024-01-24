@@ -16,6 +16,7 @@ import UIKit
 // - una lista de iconos representada por un String
 // - una lista de imágenes de la categoría representada por un arreglo de Strings
 // - una lista de descripciones de imagen de la categoría representada por un arreglo de Strings.
+
 struct Categoria {
     let name : String
     let numberOfSeccion : Int
@@ -28,6 +29,7 @@ struct Categoria {
 extension Categoria {
     static func allCategorias() -> [Categoria]{
         return [
+            
             Categoria(name: "Abecedario",numberOfSeccion: 1, iconList: "✏️", imagenesofCategory: ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"],
                 descriptionImage: ["Con la mano cerrada, se muestran las uñas y se estira el dedo pulgar hacia un lado. La palma mira al frente."
                                    ,"Los dedos índice, medio, anular y meñique se estiran bien unidos y el pulgar se dobla hacia la palma, la cual mira al frente."
@@ -253,3 +255,4 @@ struct Colores {
     static let rojoNoSaturado = "FA3029"
     static let verdeNoSaturado = "23DCBB"
 }
+

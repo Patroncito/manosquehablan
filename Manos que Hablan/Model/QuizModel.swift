@@ -287,18 +287,7 @@ var allQuizname = ["Abecedario"
 
 // Arreglo donde se almacenan todas las vistas de las categorias de los Quiz, esta ordenado de la misma forma que corresponda al orden del arreglo "AllQuizName"
 let QuizGameViews: [AnyView] = [
-     AnyView(QuizAbecedarioView()),
-     AnyView(QuizAdjetivosView()),
-     AnyView(QuizAlimentosView()),
-     AnyView(QuizAnimalesView()),
-     AnyView(QuizCalendarioView()),
-     AnyView(QuizCasaView()),
-     AnyView(QuizColoresView()),
-     AnyView(QuizCuerpoHumanoView()),
-     AnyView(QuizFrutasyVerdurasView()),
-     AnyView(QuizNumerosView()),
-     AnyView(QuizRepublicaMexicanaView())
-
+     AnyView(QuizAbecedarioView())
  ]
 
 let ColoresCategorias : [Color] = [Color.green, Color.yellow, Color.red, Color.cyan, Color.orange, Color.green, Color.yellow, Color.red, Color.cyan, Color.orange, Color.green]

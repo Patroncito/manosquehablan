@@ -208,3 +208,7 @@ struct QuizAbecedarioView : View {
      
 }
 
+
+#Preview(){
+    QuizAbecedarioView()
+}
