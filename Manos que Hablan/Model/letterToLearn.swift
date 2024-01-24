@@ -249,6 +249,7 @@ extension Categoria {
 
 
 // Estructura declarativa con el nombre Colores, para poder usar colores personalizados en codigo hexadecimal en todo el proyecto.
+
 struct Colores {
     static let rosaPastel = "F9C5CB"
     static let grisPerla = "EDEDED"

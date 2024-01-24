@@ -258,6 +258,7 @@ var quizRepublicaMexicana : [QuizModel] = [
 ]
 
 // Funcion para poner los arreglos de los quiz de tipo [QuizModel] de forma aleatoria cada vez que se termina de jugar.
+
 func myQuizSuffle (data : [QuizModel]) -> [QuizModel] {
     
     
@@ -286,6 +287,7 @@ var allQuizname = ["Abecedario"
                    , "Republica Méxicana"]
 
 // Arreglo donde se almacenan todas las vistas de las categorias de los Quiz, esta ordenado de la misma forma que corresponda al orden del arreglo "AllQuizName"
+
 let QuizGameViews: [AnyView] = [
      AnyView(QuizAbecedarioView())
  ]
