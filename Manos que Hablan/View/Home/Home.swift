@@ -14,35 +14,40 @@ struct Home: View {
     
     
     var body: some View {
-        ZStack{
+        NavigationView {
+            ZStack{
 
-            LinearGradient(colors: [Color(.baseHaiti), Color(.baseNocturne)], startPoint: .top, endPoint: .bottom).ignoresSafeArea(.all)
-            
-            VStack(alignment: .leading){
                 
-                //MARK: HEADER
-                HeaderViewHome()
+                LinearGradient(colors: [Color(.baseHaiti), Color(.baseNocturne)], startPoint: .top, endPoint: .bottom).ignoresSafeArea(.all)
                 
-                //MARK: SCORE
-                ScoreItemView()
+                VStack(alignment: .leading){
+                    
+                    //MARK: HEADER
+                    HeaderViewHome()
+                    
+                    //MARK: SCORE
+                    ScoreItemView()
+                    
+                    //MARK: Option to Play
+                    
+                    ButtonOptionView()
+                    
+                    //MARK: ScoreBoard Global
+                    LeaderboardView()
+                    
+                    
+                    //MARK: Challenges
+                    
+                    ChallengesView()
+                    
+                }    //VSTACK
+               
                 
-                //MARK: Option to Play
-                ButtonOptionView()
+              
                 
-                //MARK: ScoreBoard Global
-                LeaderboardView()
-                
-                
-                //MARK: Challenges
-                
-                ChallengesView()
-                
-            }    //VSTACK
-           
-            
-          
-            
+            }
         }
+        
 
 
     }

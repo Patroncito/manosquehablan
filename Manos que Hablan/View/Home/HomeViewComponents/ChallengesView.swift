@@ -22,17 +22,16 @@ struct ChallengesView: View {
                    
                    Spacer()
                    
-                   Button(action: {
-                       print("Button Challenges")
-                   }, label: {
-                       
+                   
+                   NavigationLink {
+                       Text("Challenge")
+                   } label: {
                        Image(systemName: "arrowshape.right.circle.fill")
                            .resizable()
                            .aspectRatio(contentMode: .fit)
                            .frame(width: 22)
                            .foregroundStyle(.white.opacity(0.8))
-                       
-                   })
+                   }
                }
           
                
