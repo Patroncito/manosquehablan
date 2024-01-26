@@ -15,13 +15,15 @@ struct LectureScrollView : View {
         
         GeometryReader { geometry in
             ScrollView(.vertical, showsIndicators: false){
-                VStack(spacing: 20){
-                    ForEach(lecture){ item in
-                      
-                        LectureCardView(geometry: geometry, category: item)
-                    }
-                   
+                LazyVStack{
+                    VStack(spacing: 20){
+                        ForEach(lecture){ item in
+                          
+                            LectureCardView(geometry: geometry, category: item)
+                        }
+                       
 
+                    }
                 }
             }
         }

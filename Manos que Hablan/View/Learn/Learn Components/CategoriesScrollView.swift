@@ -13,14 +13,17 @@ struct CategoriesScrollView : View {
     var body: some View {
         GeometryReader { geometry in
             ScrollView(.vertical, showsIndicators: false){
-                VStack(spacing: 20){
-                    ForEach(category){ item in
-                      
-                        LearnCardView(geometry: geometry, category: item)
-                    }
-                   
+                LazyVStack{
+                    VStack(spacing: 20){
+                        ForEach(category){ item in
+                          
+                            LearnCardView(geometry: geometry, category: item)
+                        }
+                       
 
+                    }
                 }
+
             }
         }
         .padding(.top, 20)

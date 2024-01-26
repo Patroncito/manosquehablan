@@ -55,14 +55,6 @@ struct listCategories: View {
 
             )
         }
-        
-        
-        //
-
-        
-         //
-
-        
     }
 }
 
@@ -220,4 +212,9 @@ extension Color {
             opacity: 1
         )
     }
+}
+
+
+#Preview(){
+    listCategories()
 }

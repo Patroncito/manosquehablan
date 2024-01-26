@@ -19,7 +19,7 @@ import UIKit
 
 struct Categoria {
     let name : String
-    let numberOfSeccion : Int
+    let numberOfSeccion : Int  //MARK: THIS IS THE ID  -> List(allcategories, id: \.numberOfSeccion) {item in restOfCode }
     let iconList : String
     let imagenesofCategory : [String]
     let descriptionImage : [String]

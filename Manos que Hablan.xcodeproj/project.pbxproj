@@ -30,6 +30,7 @@
 		8C3F0C5D2B61C305003A0775 /* ButtonSelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F0C5C2B61C305003A0775 /* ButtonSelectView.swift */; };
 		8C3F0C5F2B61D12A003A0775 /* LectureCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F0C5E2B61D12A003A0775 /* LectureCardView.swift */; };
 		8C3F0C612B61F5D9003A0775 /* CategoriesScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C3F0C602B61F5D9003A0775 /* CategoriesScrollView.swift */; };
+		8CAE2ECB2B62297200A09735 /* ListCategoriesItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CAE2ECA2B62297200A09735 /* ListCategoriesItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		8C3F0C5C2B61C305003A0775 /* ButtonSelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonSelectView.swift; sourceTree = "<group>"; };
 		8C3F0C5E2B61D12A003A0775 /* LectureCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureCardView.swift; sourceTree = "<group>"; };
 		8C3F0C602B61F5D9003A0775 /* CategoriesScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesScrollView.swift; sourceTree = "<group>"; };
+		8CAE2ECA2B62297200A09735 /* ListCategoriesItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCategoriesItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,12 +91,12 @@
 			path = Abecedario;
 			sourceTree = "<group>";
 		};
-		8A203EA72A0D7F4D00E18060 /* Learn */ = {
+		8A203EA72A0D7F4D00E18060 /* Learn 3 */ = {
 			isa = PBXGroup;
 			children = (
 				8AF7EB9229AD56C800656D28 /* listCategories.swift */,
 			);
-			path = Learn;
+			path = "Learn 3";
 			sourceTree = "<group>";
 		};
 		8A203EA82A0D7FD300E18060 /* Home */ = {
@@ -154,9 +156,9 @@
 		8AF7EB8D29AD55C600656D28 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8C0AFEAC2B60BF6A00E0AA2E /* Learn 2 */,
+				8C0AFEAC2B60BF6A00E0AA2E /* Learn */,
 				8A203EA82A0D7FD300E18060 /* Home */,
-				8A203EA72A0D7F4D00E18060 /* Learn */,
+				8A203EA72A0D7F4D00E18060 /* Learn 3 */,
 				8A015DAF2A0879C800F45878 /* Play */,
 			);
 			path = View;
@@ -171,16 +173,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		8C0AFEAC2B60BF6A00E0AA2E /* Learn 2 */ = {
+		8C0AFEAC2B60BF6A00E0AA2E /* Learn */ = {
 			isa = PBXGroup;
 			children = (
-				8C0AFEB12B60D11100E0AA2E /* Learn 2 Components */,
+				8C0AFEB12B60D11100E0AA2E /* Learn Components */,
 				8C0AFEAF2B60C98800E0AA2E /* LearnListView.swift */,
 			);
-			path = "Learn 2";
+			path = Learn;
 			sourceTree = "<group>";
 		};
-		8C0AFEB12B60D11100E0AA2E /* Learn 2 Components */ = {
+		8C0AFEB12B60D11100E0AA2E /* Learn Components */ = {
 			isa = PBXGroup;
 			children = (
 				8C0AFEB22B60D11F00E0AA2E /* LearnCardView.swift */,
@@ -188,8 +190,9 @@
 				8C3F0C5E2B61D12A003A0775 /* LectureCardView.swift */,
 				8C3F0C602B61F5D9003A0775 /* CategoriesScrollView.swift */,
 				8C002EB32B621AD5001D5908 /* LectureScrollView.swift */,
+				8CAE2ECA2B62297200A09735 /* ListCategoriesItemView.swift */,
 			);
-			path = "Learn 2 Components";
+			path = "Learn Components";
 			sourceTree = "<group>";
 		};
 		8C13B0132B5F8EC40019A9CA /* HomeViewComponents */ = {
@@ -299,6 +302,7 @@
 				8C3F0C5D2B61C305003A0775 /* ButtonSelectView.swift in Sources */,
 				8A5917A229A6E78E00BA0950 /* letterToLearn.swift in Sources */,
 				8C0AFEAB2B60ADAB00E0AA2E /* ChallengesView.swift in Sources */,
+				8CAE2ECB2B62297200A09735 /* ListCategoriesItemView.swift in Sources */,
 				8AF7EB8F29AD55D400656D28 /* Play.swift in Sources */,
 				8C002EB42B621AD5001D5908 /* LectureScrollView.swift in Sources */,
 				8C0AFEA52B60912300E0AA2E /* ScoreItemView.swift in Sources */,
